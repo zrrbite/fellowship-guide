@@ -95,6 +95,90 @@ Run the numbers over one Frigid Mists cycle:
 > timers, so the 4-second cast lockout does not apply. Kicking Icy Death early buys you nothing
 > except a cast prevented.
 
+## Squeezing out the damage
+
+Veras is a **race against permanent floor loss**, so damage is not just damage here — *when* you deal
+it matters.
+
+### Three things that are true of this fight and not of most others
+
+**1. It is pure single target. There are no adds, ever.** Every AoE talent, gem and cooldown you are
+carrying is dead weight for the entire encounter. Anyone running an AoE-leaning build is playing at a
+deficit from the pull.
+
+**2. Your damage is worth more at the start than at the end.** Frigid Mists puddles never expire, so
+the arena — and therefore everyone's uptime — only ever gets worse. This inverts the usual advice:
+**open with your cooldowns.** Do not save them the way you would for Cithrel's 50% Draconic Frenzy.
+There is no burn phase coming; the best conditions you will ever have are the ones you start with.
+
+**3. Movement is the tax, and it is not evenly charged.** Glacial Spikes every 30s, Howling Blast
+every 25s, Splintering Ice every 18s. A hero who loses damage while repositioning pays that tax three
+times a minute. A hero who does not, does not.
+
+### What each role should actually do
+
+| Role | The lever |
+|---|---|
+| **Ranged DPS** | You are the group's insurance. You keep attacking through mechanics that stop everyone else, so you also take the jobs that require *being able to act on demand* — starting with the banked interrupt |
+| **Melee DPS** | Uptime is your entire damage profile. Flank for Howling Blast, turn tightly on Spikes, and use your gap-closer to return from knockbacks rather than walking |
+| **Tank** | Every incoming hit is on a fixed timer. Pre-empt rather than react, and point Howling Blast at a wall on the far side from the melee |
+| **Healer** | You have **no interrupt** — do not plan around contributing one. Pre-shield to the tank's 12-second Icy Death cadence instead of reacting to it |
+
+## Our group: Helena, healer, Elarion, Gunde
+
+This composition has an unusually clean answer, because the roles sort themselves.
+
+### The interrupt assignment is forced, not chosen
+
+Your three interrupts are **Helena (Bash)**, **Elarion (Disrupt)** and **Gunde (Jawbreaker)**. Healers
+have none, so there is no fourth.
+
+| Player | Job | Why |
+|---|---|---|
+| **Elarion** | **Banks Frigid Mists. Never touches Icy Death.** | **Disrupt is 30 yards** and he can fire while moving. He is the only member who can guarantee a kick *during* the Spikes overlap, because he never has to stand where the knock-ups land |
+| **Helena** | Rotates Icy Death | Icy Death targets her by definition, so she is always in range |
+| **Gunde** | Rotates Icy Death | Melee range, already on the boss |
+| **Healer** | Nothing | No interrupt exists. If you are on Vigour, *Throw Book* is a 2s stun for trash only — Veras will resist it |
+
+Helena and Gunde alternate strictly — two kicks on ~20s cooldowns cover a 12s cast comfortably — while
+Elarion holds. That covers **every** Icy Death and **every** Frigid Mists.
+
+### Elarion is the best-suited DPS in the roster for this fight
+
+He uses **every ability while moving**, so Glacial Spikes costs him nothing that it costs everyone
+else. Expect his relative contribution here to exceed what he does on a stationary fight, and do not
+read that as Gunde playing badly.
+
+- **Stay on Highwind Arrow.** Barrage needs Haste >20% and Spirit 30-35% on 10b gear — not Champion.
+- **Get everything on cooldown.** Event Horizon's haste and cooldown reduction want a full board.
+- **Consider Draconic Deceit** (−15% threat). On a long single-target fight a geared Elarion can pull
+  off Helena — and the set drops in this dungeon.
+
+### Gunde has the most to gain from changing something
+
+He is the DPS most punished by this fight, and two of the three fixes cost nothing:
+
+1. **Run Oathshatter Heart Splitter, not Grim Carve.** Grim Carve is an AoE build on a boss with no
+   adds.
+2. **Never press Slaughter.** It strips the Rend that Heart Splitter's exsanguinate milks at 30% *per
+   cast, without consuming it*. On a five-minute single-target fight that is an enormous amount of
+   forfeited damage. See [his page](../heroes/dps/gunde.md#single-target-damage).
+3. **Use Warbound to come back from Howling Blast.** Walking back after a knockback is several seconds
+   of zero uptime, several times per fight.
+
+### Helena is better here than her reputation suggests
+
+Her Toughness cycling — Shield Slam into Shockwave, Shields Up below 40% — is at its strongest against
+*predictable* damage, and this boss is nothing but fixed timers. Icy Death every 12 seconds and
+Howling Blast every 25 mean she can pre-empt each hit rather than react to it. Note that **Grand Melee
+is dead weight on the boss**; it is a trash tool.
+
+### Where this group will actually lose the pull
+
+Not on damage. On the **Spikes/Mists convergence**, where Gunde is airborne and Helena may be repositioning
+for Howling Blast. That is precisely the moment Elarion's banked 30-yard Disrupt exists to cover — so
+the single most valuable habit for this group is **Elarion never spending his kick on anything else.**
+
 ## At Champion and above
 
 - **Splintering Ice is live** (Adept+) and adds an 18s dispel obligation on top of everything else.

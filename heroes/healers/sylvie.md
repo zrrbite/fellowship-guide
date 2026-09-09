@@ -4,6 +4,8 @@
 Sylvie casts **minimal direct heals** and instead pre-seeds healing-over-time before damage lands.
 Playing her reactively is the single most common mistake.
 
+**Interrupt: none.** Healers do not get one. Your party has **three** interrupts, from the tank and the two DPS — see [interrupts.md](../../docs/interrupts.md).
+
 ## Stat priority
 
 1. **Item Level / Intellect**
@@ -92,6 +94,37 @@ Iron Spikes, King of the Hill, Latent Resurgence, Stalwart Readiness, Treasure H
 - **Sets:** Seal of the Heskyr + Haunting Lament. Torment of Bael'Aurum for progression safety.
 - **Legendaries:** Mad Gardener's Shawl (cloak, higher APM) or Loop of Unyielding Bloom (ring,
   passive). Your Legendary decides your build, not the reverse.
+
+## Single target vs group healing
+
+**"Always be casting."** Continuous casting drives damage, cooldown reduction and healing throughput
+together — idling costs you all three.
+
+### The Flutterfly economy
+
+You control **four pink Flutterflies** that sit on assigned targets **indefinitely**, healing over
+time. **Restore Life temporarily occupies two of them** to deliver burst healing before they return to
+idle — so every burst heal costs you sustained healing elsewhere while it is out.
+
+### Single target
+
+**Fluttercall: Restore Life** is your reactive tool for one ally taking heavy damage. **Weave other
+abilities between casts** rather than chain-casting it — that reduces butterfly reassignment and is
+where the efficiency is.
+
+### Group
+
+| Tool | When | Detail |
+|---|---|---|
+| **Life Petal** | Moderate group damage | 60s cooldown. Pulses for **14 seconds** with diminishing effect, prioritising the most injured. Spawns **two boomshrooms** on expiry |
+| **Heart Bloom** | Severe group damage, mid-to-late game | Stores **7.5% of all Flutterfly healing you do** and releases it to all allies **every 2 seconds for 16 seconds** |
+
+**Heart Bloom rewards setup, not reaction.** Cast **Restore Life immediately before** activating it, so
+there is already a large pool of Flutterfly healing to store. Firing Heart Bloom cold wastes most of
+its value — which is the ramping-cooldown trap that catches people converting from reactive healers.
+
+**Pre-seeding:** precast **Bluey and two Pink Flutterflies, then mount, before the dungeon timer
+ends**.
 
 ## Focus Next
 

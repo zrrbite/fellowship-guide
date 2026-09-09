@@ -17,6 +17,7 @@ the most progress per hour of actual play?**
 | What my character should do next | Your hero page, bottom section: **Focus Next** |
 | What to interrupt | [docs/interrupts.md](docs/interrupts.md) — one page, print it |
 | What our curse does this week | [docs/curses.md](docs/curses.md) — Champion unlocks four new ones |
+| How to press my buttons on a boss | Your hero page: **Single target** and **AoE** |
 | How to craft/reroll my way to BiS | **[docs/optimisation.md](docs/optimisation.md)** — gems, reforging, what to spend and when |
 | Which dungeon drops the set I need | [docs/sets.md](docs/sets.md) |
 
@@ -52,6 +53,10 @@ the most progress per hour of actual play?**
 **Easiest picks for a casual group:** Rime (DPS — all secondary stats equal, so gearing is trivial),
 Vigour (Healer — reactive, forgiving), Meiko or Helena (Tank). **Hardest:** Tariq (swing timer),
 Sylvie (proactive pet healing), Gunde (three divergent builds).
+
+Every hero page carries an **Interrupt** line at the top and **Single target** / **AoE** sections
+before *Focus Next* — for healers those read as single-target versus group healing, and for tanks as
+boss versus pull. **Healers have no interrupt**, so a party has three, not four.
 
 ## Dungeons
 

@@ -4,6 +4,8 @@
 damage and area damage. Rime is the clearest example of a hero who genuinely wants the **rainbow
 gem shape** at endgame rather than a single-colour collapse.
 
+**Interrupt: Brain Freeze** — **20s cooldown**. All interrupts lock the target out of casting for **4 seconds**, except against dedicated boss timers. Plan on a **~20s cooldown**; see [interrupts.md](../../docs/interrupts.md).
+
 ## Stat priority
 
 1. **Item level / Intellect**
@@ -98,6 +100,53 @@ no comparable payoff at rank 10 for her kit.
   burst ceiling.
 - **Legendaries:** Skandi's Bands of Endless Winter, Eldrin Signet of Undulating Spirits,
   Drakesblood Tapestry — each defines a build.
+
+## Single-target damage
+
+**Priority order:**
+
+1. Winter's Blessing / Flight of the Navir / Ice Blitz
+2. **Bursting Ice**
+3. Freezing Torrent — **only if you have no Winter's Orbs**
+4. **Glacial Blast**
+5. Cold Snap
+6. Frost Bolt
+
+**The bread-and-butter combo is Bursting Ice → Glacial Blast → Cold Snap.** Bursting Ice opens the
+**Winter's Embrace** buff window; Glacial Blast is your spender inside it. You **cannot fit two
+Glacial Blasts** into a single window, which is precisely why Cold Snap exists — it fills the
+remainder rather than being an afterthought.
+
+**What changes from AoE:**
+
+| AoE | Single target |
+|---|---|
+| Ice Comet is the spender | **Glacial Blast** is the spender |
+| Ice Comet fills the Winter's Embrace window | **Cold Snap** fills it |
+
+**Line up your cooldowns *before* Bursting Ice**, not after. Ice Blitz and Winter's Blessing want to
+be already active when the buff window opens, so the whole window is buffed rather than the tail of it.
+
+## AoE damage
+
+1. Build Winter's Orbs
+2. **Bursting Ice**
+3. **Ice Comet ×2**
+4. Cold Snap
+
+**Ice Comet is the AoE spender, replacing Glacial Blast.** With the **Icy Talons** talent, **Rising
+Talons** replaces Ice Comet in that slot.
+
+**The window tells you everything.** Compare what fits inside one Winter's Embrace:
+
+| | Fits in the window |
+|---|---|
+| **Single target** | One Glacial Blast + Cold Snap |
+| **AoE** | **Two** Ice Comets + Cold Snap |
+
+*"As long as you fit two Ice Comet and one Cold Snap into each Winter's Embrace window it doesn't
+matter the order of them."* — so in AoE you have ordering freedom you do not have on a boss, where the
+Bursting Ice → Glacial Blast → Cold Snap sequence is fixed.
 
 ## Focus Next
 

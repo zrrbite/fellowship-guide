@@ -3,6 +3,8 @@
 **Identity:** Cinders convert into Burning Embers. Ardeos is a damage-over-time specialist built
 around detonation and DoT acceleration, with Fire Frogs as a scaling AoE layer.
 
+**Interrupt: Scorch.** All interrupts lock the target out of casting for **4 seconds**, except against dedicated boss timers. Plan on a **~20s cooldown**; see [interrupts.md](../../docs/interrupts.md).
+
 ## Stat priority
 
 1. **Item level / Intellect**
@@ -77,6 +79,54 @@ Topaz and Diamond as secondary fills.
   well Ardeos scales with Haste.
 - **Legendaries:** Ring of Boomtastic Explosions (general), Exquisite Flaming Toad Cloak (Frogs),
   Draconic Bracers of the Devouring Flame (single target).
+
+## Single-target damage
+
+**"It's all Detonate, always has been."** Detonate is the entire point of the hero; Searing Blaze,
+Engulfing Flames, Fire Ball and Infernal Wave exist to fund it.
+
+**How the engine works:** you accumulate **Cinders** through casts, and at **100 Cinders** you gain an
+**Ember** to spend on Detonate. **Detonate's damage scales with your active DoTs — the more you have
+applied, the harder it hits.**
+
+### The misconception that costs the most damage
+
+**Detonate does not consume your DoTs.** Players hold Detonate back to "preserve" their DoTs, or
+re-apply everything after each cast. Neither is necessary. Keep DoT uptime high and spend Embers
+freely.
+
+**Rotation:**
+
+1. Fire Frogs
+2. Apocalypse
+3. Fire Ball
+4. Engulfing Flames ×2
+5. Pyromania
+6. Wildfire
+7. **Detonate spam**
+
+Between burn windows, refresh expiring **Searing Blaze** debuffs and spam **Infernal Wave** to
+generate.
+
+**Single target versus AoE:** the rotation barely changes — the real difference is *when* you time
+your burn windows. In AoE you generate far more resource, so watch for **overcapping Embers**; on a
+boss that pressure disappears and burn-window placement becomes the only lever.
+
+## AoE damage
+
+**The rotation barely changes.** Ardeos is unusual in this: the same burn-window sequence applies, and
+the real difference is resource pressure rather than button order.
+
+**Fire Ball is the only DoT that generates Cinders per tick.** On multiple targets those ticks
+multiply, which makes Fire Ball disproportionately valuable in AoE and is the whole reason your
+generation accelerates.
+
+**So the AoE discipline is about not wasting the surplus:**
+
+- **Watch for overcapping Embers.** You will generate far more than on a boss, and a capped Ember is
+  simply lost damage.
+- **Infernal Wave** remains your only spammable Cinder generator between Wildfire windows.
+- Burn-window *timing* — not rotation — is the lever that separates good Ardeos play from average.
 
 ## Focus Next
 

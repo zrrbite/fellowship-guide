@@ -3,6 +3,8 @@
 **Identity:** A Chrona builder/spender healer built around **Unfolding Doom uptime**. She is the
 most cooldown-reduction-hungry healer, and the only one whose gem plan runs Ruby first.
 
+**Interrupt: none.** Healers do not get one. Your party has **three** interrupts, from the tank and the two DPS — see [interrupts.md](../../docs/interrupts.md).
+
 ## Stat priority
 
 1. **Item level / Intellect**
@@ -77,6 +79,32 @@ each track feeds a different part of her loop.
 - **Sets:** Seal of the Heskyr + Haunting Lament (+4% Spirit, +15% max mana).
   Torment of Bael'Aurum if you are dying during progression pushes.
 - **Relics:** one of each type.
+
+## Single target vs group healing
+
+**Chrona builders:** Unfolding Doom (20), Entropy's Claim (20), Temporal Barrage (20), and **Echoes of
+Ruin (6) — which is filler, not a core rotational button.**
+
+### The mechanic that decides everything
+
+**Most of Aeona's damaging abilities convert part of their damage into healing — but they only heal
+the lowest-health ally.** That single restriction is the whole shape of the hero:
+
+| Situation | What it means |
+|---|---|
+| **Single target** — one person taking damage | Your damage-to-healing conversion is **perfectly targeted**, because the tank *is* the lowest-health ally. Aeona is naturally efficient here |
+| **Group damage** — everyone hurt | The conversion **cannot spread**. It trickles to whoever is lowest and ignores the rest |
+
+**Oblivion is the exception, and therefore the centrepiece.** It heals the **entire party**, and it is
+the answer to every group-damage moment. Build toward it; do not spend it casually.
+
+For pure single-target topping, **Flash Revision** is the more relevant tool.
+
+### Free spenders
+
+**Uchronia** makes every fourth Chrona spender free; **Clairvoyance** stacks up to three times.
+**Prioritise your free casts on Restore Continuity**, because it is your most expensive spender — that
+is where a free cast is worth the most.
 
 ## Focus Next
 

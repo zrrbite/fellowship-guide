@@ -40,6 +40,9 @@ ability names, and closed the Vel'korath gap. See *Audit findings* below.
 | [Icy Veins — Dungeon Curses Guide](https://www.icy-veins.com/fellowship/news/dungeon-curses/) | All curses, their bonuses, and league gating — [`docs/curses.md`](docs/curses.md) |
 | [Fextralife — Apostate Veras](https://fellowship.wiki.fextralife.com/Apostate+Veras) | Cross-check on Wyrmheart boss naming |
 | [Fextralife — Disrupt](https://fellowship.wiki.fextralife.com/Disrupt) | Interrupt cooldown (20s), range (30 yd), 4s cast lockout |
+| [Fextralife — Skills](https://fellowship.wiki.fextralife.com/Skills) | Interrupt ability names per hero; confirmation that healers have none |
+| [Method — hero Playstyle & Rotation pages](https://www.method.gg/fellowship/heroes) | Single-target and AoE priority lists, target-count breakpoints, resource mechanics for all 12 heroes |
+| [Method — hero database](https://www.method.gg/fellowship/database/heroes) | Ability names and effects (Gunde's Jawbreaker, Warbound, Butcher's Hook) |
 
 ## Audit findings, 2026-09-09
 
@@ -124,7 +127,18 @@ full Han-Eth and Vel'korath kits (Xul).
   pages therefore have no recast column, and none was invented.
 - **Stormwatch's *Forked Lightning*** appears in this repo's earlier notes but in no current source
   listing for Warlord Brogg. Flagged on the page as unverified.
-- **Per-hero interrupt cooldowns are undocumented here.** No hero page names its interrupt ability.
+- **Hero race/species is not published** by Method, Icy Veins or the Fextralife hero index. Any
+  description of a hero as a dwarf, elf and so on cannot be sourced from the guides consulted.
+- **Xavian's interrupt name is unconfirmed.** The Fextralife Skills page lists interrupts for Helena
+  (Bash), Meiko (Stagger), Rime (Brain Freeze), Ardeos (Scorch), Mara (Kick) and Tariq (Pummel);
+  Elarion's Disrupt and Gunde's Jawbreaker come from their own pages. Xavian is confirmed to have one
+  without a name being given.
+- **Vigour's *Avatar of Light*** is described in this repo as a spirit form but does not appear in the
+  Method rotation guide. Flagged on her page as unconfirmed.
+- **Mara's Skittering Blades threshold** is given as both *3 or more* and *8 or more* targets within
+  the same source, likely reflecting different talent setups. Both are presented on her page.
+- **Per-hero interrupt cooldowns are only partly documented.** Only Elarion's and Rime's are confirmed
+  (both 20s).
   Only two figures are confirmed (Elarion's Disrupt and Rime's, both 20s), and one secondary source
   claims melee heroes have shorter cooldowns than ranged without giving numbers. **20s is used as the
   planning figure throughout.** If melee kicks are meaningfully shorter, the interrupt arithmetic in

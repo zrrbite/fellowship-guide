@@ -4,6 +4,8 @@
 through frequent ability resets and shield absorb technology. She is the most cooldown-dependent
 tank in the roster, which is why her entire build is bent toward cooldown reduction.
 
+**Interrupt: Bash.** All interrupts lock the target out of casting for **4 seconds**, except against dedicated boss timers. Plan on a **~20s cooldown**; see [interrupts.md](../../docs/interrupts.md).
+
 ## Stat priority
 
 1. **Item Level / Strength** — primary scaling for both damage and survivability
@@ -84,6 +86,35 @@ from Imbued Essence modifiers** on top of four Flawless gems with Seal of the He
 - **Sets:** Seal of the Heskyr + Sinthara's Veil (magic DR). Draconic Fury if threat is a problem;
   Torment of Bael'Aurum for a cheat death during progression.
 - **Relics:** two slots — take one of each type first, then reforge duplicates.
+
+## Single target vs AoE
+
+**Priority:** Sweeping Strike → Charge (with the associated Legendary) → Shockwave → Shield Slam →
+Shield Throw → Hold The Line → Power Strike → Measured Strike.
+
+**Sweeping Strike leads regardless of target count** — it does an extremely large amount of damage and
+carries a healing component. Helena's rotation does not meaningfully change between a boss and a pull;
+her *tools* do.
+
+### The AoE tool: Grand Melee
+
+A **10-second AoE silence that forces every affected enemy to auto-attack only.** This is not a damage
+button, it is a pull-shaping button — it turns a caster pack into a melee pack for ten seconds. On a
+boss it does nothing.
+
+### Toughness cycling — the actual skill
+
+| Ability | What it gives |
+|---|---|
+| **Shield Slam** | Cooldown reduction for Shockwave, **+15% Toughness** |
+| **Shockwave** | **+25% Toughness** (more with talents) |
+| **Shields Up** | Use at **<40% Toughness**, when your block buff is about to expire, or when you are about to overcap charges |
+| **Iron Wall** | **Prevents Toughness being lowered for 12 seconds** — use it to regenerate charges when you are depleted |
+
+**This cycling is at its best against predictable damage.** On a boss with fixed cast timers you can
+pre-empt every hit rather than reacting to it; in a pull you are reacting. Helena is therefore a
+stronger boss tank than her kit first suggests — see
+[Wyrmheart](../../dungeons/wyrmheart.md#squeezing-out-the-damage).
 
 ## Focus Next
 

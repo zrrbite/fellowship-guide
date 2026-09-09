@@ -3,6 +3,8 @@
 **Identity:** A combo-based tank who switches between **Wind** and **Earth** stances, spending
 Combo Builders into Finishing Techniques and summoning the Twin Soul for threat management.
 
+**Interrupt: Stagger.** All interrupts lock the target out of casting for **4 seconds**, except against dedicated boss timers. Plan on a **~20s cooldown**; see [interrupts.md](../../docs/interrupts.md).
+
 ## Stat priority
 
 1. **Agility** (main stat)
@@ -72,6 +74,33 @@ King of the Hill and Treasure Hunter's Delight are also strong.
 
 - **Sets:** Seal of the Heskyr + Sinthara's Veil. Draconic Fury if you need threat.
 - **Relics:** one of each type, then reforge duplicates.
+
+## Single target vs AoE
+
+Meiko's combo system decides this for you, and the breakpoint is unusually high: **5 targets**, not 3.
+
+**How the combo reads:** your first ability determines the *type* of finisher; the second selects
+*which* finisher fires.
+
+| Opener | Use for |
+|---|---|
+| **Earth Fist** | **1-4 targets** — the single-target and small-pull combo |
+| **Wind Kick** | **5+ targets** — the big-pull combo |
+| **Spirit Palm** first | **Defensive buff**, regardless of count |
+
+### Single target and small pulls (1-4)
+
+**Earth Fist + Spirit Palm → Rising Earth** finisher with no stacks, then spend that buff with your
+Earth follow-ups.
+
+### Big pulls (5+)
+
+**Wind Kick + Spirit Palm → Rising Storm** finisher with no stacks, then **Wind Kick + Earth Fist →
+Lashing Stormkick** to spend Rising Storm.
+
+**Keep the defensive buff up while running the offensive one.** The guidance is blunt: you will deal
+much more damage *and* heal much more if you are actually using these buffs rather than mashing
+finishers.
 
 ## Focus Next
 

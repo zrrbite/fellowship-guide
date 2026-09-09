@@ -18,6 +18,27 @@ Four facts that govern every assignment on this page:
    kick and shows your allies whether yours is ready. This is the tool that makes everything below
    work without anyone talking over each other.
 
+### Who has one
+
+| Hero | Role | Interrupt | Notes |
+|---|---|---|---|
+| Helena | Tank | **Bash** | |
+| Meiko | Tank | **Stagger** | |
+| Xavian | Tank | *(name unconfirmed)* | Must actually interrupt a cast or it has no effect; usable during the GCD |
+| Ardeos | DPS | **Scorch** | |
+| **Elarion** | DPS | **Disrupt** | **30 yd, 20s.** Longest confirmed range — the best banked kicker |
+| Gunde | DPS | **Jawbreaker** | Melee range |
+| Mara | DPS | **Kick** | |
+| Rime | DPS | **Brain Freeze** | 20s |
+| Tariq | DPS | **Pummel** | Also **silences for 4s** |
+| Aeona | Healer | **None** | |
+| Sylvie | Healer | **None** | |
+| Vigour | Healer | **None** | Has *Throw Book*, a 2s **stun** — works on trash, not on bosses |
+
+**Range is a real consideration for a banked kick.** On fights that knock people around, a 30-yard
+interrupt held by a mobile hero is far more reliable than a melee one, because the melee player is
+standing exactly where the knock-ups happen.
+
 ## How to use this
 
 **Assign targets before the pull.** "I have the caster on the left, you have the one on the right"

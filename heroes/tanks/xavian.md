@@ -4,6 +4,8 @@
 Unusually for a tank, Xavian is a genuine crit-scaling character — his gem plan is Amethyst-first,
 which no other tank runs.
 
+**Interrupt: yes** — Xavian has one, though its name is not confirmed in the sources consulted. It **must actually interrupt a cast or it has no effect**, and it can be used during the global cooldown. All interrupts lock the target out of casting for **4 seconds**, except against dedicated boss timers. Plan on a **~20s cooldown**; see [interrupts.md](../../docs/interrupts.md).
+
 ## Stat priority
 
 1. **Strength** — primary attribute, greatest impact
@@ -71,6 +73,31 @@ scaling; do not copy Helena's or Meiko's Emerald-first plan onto him.
 - **Sets:** Seal of the Heskyr + Sinthara's Veil. Draconic Fury is a real consideration here given
   his crit scaling — the +4% Crit is not wasted on Xavian the way it would be on Helena.
 - **Legendaries:** Sandworn Bands of the Fortress pushes you toward the Shield build.
+
+## Single target vs AoE
+
+**Priority:** Aura of Solace (toggle) → Shining Halo → Solar Shield (with Invictus) → Solar Blades
+(weave off the GCD) → Blinding Slash → Omnistrike → Brilliant Flash → Sun Strike.
+
+### The single-target rule that catches everyone
+
+**Keep Aura of Solace toggled OFF on a boss.** Single-target encounters heavily strain Xavian's mana
+economy, and the guidance is unambiguous: if you must choose between maintaining Aura of Solace and
+casting Solar Shield liberally, **always choose Solar Shield**. Toggle the Aura on only to eat a
+specific mechanic, then off again.
+
+**In AoE the calculus reverses.** Aura of Solace's damage redirection and passive damage output are
+genuinely worth the mana in a pull, and the larger mana pool per unit of incoming damage makes it
+maintainable.
+
+### Constants in both
+
+- **Shining Halo** — maintain maximum uptime and **do not recast it until it has completely expired**.
+  Stand inside it as much as humanly possible; the zone is your damage reduction and avoidance.
+- **Solar Shield** — an 8-second, flat **20% damage reduction** on a short cooldown. Use it
+  **incredibly liberally**; holding it is the most common Xavian mistake.
+- **Swift Reprieval** — your rotational abilities each have a chance to generate a stack, converting
+  Brilliant Flare into an instant-cast Brilliant Flash.
 
 ## Focus Next
 

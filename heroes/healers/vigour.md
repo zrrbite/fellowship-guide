@@ -4,6 +4,8 @@
 the **Avatar of Light** spirit form. The most reactive healer in the roster, and the one with the
 clearest single-colour gem plan.
 
+**Interrupt: none — but she has *Throw Book*, a 2-second stun.** That is crowd control, not an interrupt: it will stop a trash cast, but bosses resist it. Do not count Vigour toward your boss interrupt rotation. See [interrupts.md](../../docs/interrupts.md).
+
 ## Stat priority
 
 1. **Item level / Intellect**
@@ -81,6 +83,33 @@ recommended outside Eternal 60+ difficulty.**
   Vigour's sustain window).
 - **Legendaries:** Cloak (general progression), Ring of Harmonizing Refractions (defensive
   Empyrean Sands build).
+
+## Single target vs group healing
+
+Vigour is an **"always be casting"** healer. The priority:
+
+1. Maintain **Rune of Renewal** on the party — target **100% uptime**
+2. **Dawnbreaker Orb** on cooldown
+3. **Radiant Blast** off cooldown
+4. **Dawnflare** for rune generation
+5. Spend **5+ runes** — **Soulbrand** on enemies, **Luminous Barrier** on allies
+6. **Circle of Light** for group healing
+
+### Single target — a tank on a boss
+
+**Rune of Renewal uptime plus Luminous Barrier on the tank** is the whole job. Early on, **Greater
+Heal** is your reactive tool. Because boss damage arrives on fixed cast timers, you can pre-shield
+rather than react — barrier the tank *before* the hit, not after it.
+
+### Group
+
+- **Circle of Light** is your group heal, but **the circle is small** — positioning matters more than
+  timing, and it is nearly useless if the party is spread for a mechanic.
+- **Dawnbreaker Orb becomes substantially more efficient** when it hits multiple targets, generating
+  far more runes. In a pull your rune economy is comfortable; on a boss it is not.
+
+> **Unverified:** this repo previously described an **Avatar of Light** spirit form. It is not
+> documented in the Method rotation guide. Treat it as unconfirmed.
 
 ## Focus Next
 

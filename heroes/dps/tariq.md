@@ -4,6 +4,8 @@
 Strikes against the swing timer, and uses Thunder Call to open burst windows. He is the most
 timing-dependent hero in the roster — gear improves him, but execution defines him.
 
+**Interrupt: Pummel** — uniquely, it also **silences for 4 seconds** rather than only interrupting. All interrupts lock the target out of casting for **4 seconds**, except against dedicated boss timers. Plan on a **~20s cooldown**; see [interrupts.md](../../docs/interrupts.md).
+
 ## Stat priority
 
 1. **Strength** — main stat has the greatest impact on damage
@@ -80,6 +82,49 @@ to fund it.
 - **Sets:** Seal of the Heskyr + Death's Grasp. **Dark Prophecy** is unusually strong on Tariq,
   because its 25% haste directly accelerates his swing-timer rotation and raises his own PPM procs.
 - **Relics:** one of each type, then reforge duplicates.
+
+## Single-target damage
+
+**Skull Crusher is your single-target spender.** Hammer Storm is the 3+ target button — pressing it
+on a boss is a straight loss.
+
+**Spend Fury with Skull Crusher when:**
+
+- You are inside **Thunder Call** or **Raging Tempest**, or
+- You are **capped at 100 Fury** and would otherwise overcap
+
+**Otherwise, pool.** Bank up to your **maximum of 100 Fury outside Thunder Call**, and spend outside
+that window *only* to avoid overcapping. Fury spent early at low value is Fury unavailable inside your
+cooldown window, where every point is worth more.
+
+**With the Schism talent**, the rule inverts in a useful way: while you do **not** have a Schism proc
+for Hammer Storm, spend Fury with Skull Crusher **regardless of target count**.
+
+**Culling Strike** is your other single-target spender and should be treated as part of the same
+budget.
+
+> Tariq is rated the hardest hero in this roster for a reason: the pooling discipline above is easy to
+> describe and hard to execute while dodging. On a movement-heavy fight, expect to lose more damage to
+> mistimed pooling than to anything the boss does.
+
+## AoE damage
+
+**Hammer Storm replaces Skull Crusher at 3+ targets** — same trigger conditions: inside Thunder Call
+or Raging Tempest, or capped on Fury.
+
+**Building Fury also inverts.** In AoE, **Face Breaker** comes before Chain Lightning when you are not
+Fury-capped — the reverse of the single-target order.
+
+### Schism changes the game entirely
+
+With Schism talented, stop spending Fury freely and start playing the proc:
+
+- **Only use Hammer Storm when you have a Schism proc.**
+- **Schism procs stack to two charges.** So spam Skull Crusher to bank **two** charges, then dump both
+  Hammer Storms back to back inside a single **Slayer's Mosh** window with the next **Leap Smash**.
+
+That is a deliberate, proc-gated rotation rather than the straightforward fury-capping of the other
+builds, and it is the main reason Tariq is rated the hardest hero here.
 
 ## Focus Next
 
