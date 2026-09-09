@@ -89,6 +89,12 @@ assignment is **two players rotating Icy Death while a third banks for Frigid Mi
 both. The Stormwatch verdict was unaffected — Charged Bolt has no meaningful recast, so no rotation
 can cover it — but its reasoning was rewritten to say so.
 
+**Difficulty tier caveat, 2026-09-09.** The Adventure tier list in [`docs/dungeons.md`](docs/dungeons.md)
+previously justified Wyrmheart's S rating with "boss damage is low even through missed interrupts",
+which is false from Adept onward and directly contradicted the rewritten Wyrmheart page. Corrected,
+and a section added showing that Vayr's Legacy adds an 18-18.5s ability to the three easiest
+Adventures but only a 38-60s one to the hardest — so the tier spread compresses with every league.
+
 **Season 3 coverage re-verified, 2026-09-09.** The roster is **12 heroes** and **Gunde is the only
 hero added in Season 3** — all twelve have pages. The three Season 3 dungeons (Scryer's Peak, Ruins of
 Regath, Xul the Blood Monolith) all have pages. Nothing from the season is missing. The audit did

@@ -39,11 +39,15 @@ sets at once**.
 
 ## Adventures — ranked by difficulty
 
-Method's difficulty ranking, easiest first:
+Method's difficulty ranking, easiest first.
+
+> **This is an *Adventure* ranking, and it does not survive the climb.** Read the section below it
+> before you trust the order — the tiers compress badly from Adept onward, and Wyrmheart is the
+> single worst offender.
 
 | Tier | Dungeon | Boss | Why |
 |---|---|---|---|
-| **S (easiest)** | [Wyrmheart](../dungeons/wyrmheart.md) | Apostate Veras | Dangerous mobs are avoidable; boss damage is low even through missed interrupts |
+| **S (easiest)** | [Wyrmheart](../dungeons/wyrmheart.md) | Apostate Veras | Avoidable trash, and at Adventure the boss is forgiving. **At Champion this is no longer true** — see below |
 | **A** | [Sailor's Abyss](../dungeons/sailors-abyss.md) | Sinthara | Limited routing, but most threat lands on the tank |
 | **A** | [Silken Hollow](../dungeons/silken-hollow.md) | Vexira | Low group damage, few forced interrupts, forgiving boss |
 | **A** | [Empyrean Sands](../dungeons/empyrean-sands.md) | Sin-Magir | Flexible routing around dangerous packs; healing recently retuned easier |
@@ -59,6 +63,33 @@ Method's difficulty ranking, easiest first:
 > Sources disagree on the hardest tier. Method rates Everdawn Grove B and Urrak Markets C; Overgear
 > rates Everdawn Grove, Urrak Markets **and** Ransack of Drakheim all C. Treat all three as "bring
 > your best night".
+
+### Why the ranking compresses as you climb
+
+[Vayr's Legacy](#vayrs-legacy) adds one boss ability from Adept onward — but **it does not add the
+same amount to every dungeon**, because the added abilities run on very different cadences:
+
+| Dungeon | Ability gained at Adept | Recast | How much it adds |
+|---|---|---|---|
+| **Wyrmheart** | Splintering Ice | **18s** | **A lot.** Frequent, and it demands a dispel |
+| **Empyrean Sands** | Lunar Beam | **18.5s** | A lot |
+| **Everdawn Grove** | Summon Totems | **18.5s** | A lot |
+| Sailor's Abyss | Necrotic Wave | 26s | Moderate |
+| Stormwatch | Lightning Rod | 38s | Little |
+| Urrak Markets | Infernal Explosive | 60s | Little |
+
+**The three dungeons rated easiest gain the most frequent new mechanics, and the hardest gain the
+least.** So the spread between S and C narrows every league, and the tier list is least reliable
+exactly where it is most confident.
+
+**Wyrmheart is the clearest case.** Its S rating rests on the boss being forgiving through missed
+interrupts — and at Champion, missed interrupts are the one thing it does not forgive, because every
+missed Frigid Mists permanently removes floor. The single justification for the rating stops being
+true. Do not use it as your warm-up dungeon at Champion on the strength of an Adventure ranking.
+
+> **Note:** we have no patch-note evidence of a Wyrmheart-specific rebalance in Season 3. The
+> difficulty a Champion group experiences is explained by the league climb plus Vayr's Legacy, which
+> is enough on its own.
 
 ## Capstones
 
