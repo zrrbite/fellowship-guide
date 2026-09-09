@@ -13,6 +13,10 @@ member, or for a night when the group is tired.
 > Champion the fight is a genuine interrupt-discipline check. See
 > [At Champion and above](#at-champion-and-above). Do not walk in expecting the Adventure fight.
 
+> **In a hurry?** Jump to **[Before you pull](#before-you-pull--read-this-out-loud)** for the
+> assignments, or **[Our group](#our-group-helena-vigour-elarion-gunde)** for why they are what they
+> are.
+
 ## Route
 
 **Take the left path** through the humanoid mobs — Tundra Stalkers, Deceitful Scholars, Blades of
@@ -212,10 +216,27 @@ the single most valuable habit for this group is **Elarion never spending his ki
   and still running out of floor, the answer is item level, not tactics — see
   [`docs/progression.md`](../docs/progression.md) for Champion targets (~190 entry, 240-250 exit).
 
-### The three things to get right
-1. **One player banks a kick for Frigid Mists while the other two rotate Icy Death.** Every missed
-   Mists permanently shrinks the arena.
-2. **Fight from the flank and turn tightly during Spikes.** Both knockbacks exist to push your
-   interrupters out of range at the worst moment.
-3. **Stack for Burrowed Strike** on the Greater Ice Elementals in the trash — splitting it is trivial
-   and not splitting it kills someone.
+## Before you pull — read this out loud
+
+| Player | The one thing |
+|---|---|
+| **Elarion** | *"My kick is Frigid Mists. I never touch Icy Death."* |
+| **Helena** | *"Gunde and I alternate Icy Death — strictly alternate, no doubling up."* |
+| **Gunde** | *"Heart Splitter priority. I do not press Slaughter."* |
+| **Vigour** | *"Barrier on Helena before Icy Death, not after. I own the Splintering Ice dispel."* |
+
+**And everyone:**
+
+1. **Cooldowns go in on the pull, not saved.** The arena only ever shrinks, so these are the best
+   conditions you will get.
+2. **Fight from the flank, and turn tightly during Spikes.** Both knockbacks exist to push your
+   interrupters out of range at the worst possible moment.
+3. **When Mists lands closer to Spikes than last time, say so.** The next cycle is the overlap, and
+   Elarion needs to be standing still and in range for it.
+
+*On the way in:* **stack for Burrowed Strike** on the Greater Ice Elementals — splitting it is trivial
+and not splitting it kills someone.
+
+> Running a different four? The reasoning behind every line above is in
+> [Our group](#our-group-helena-vigour-elarion-gunde) and
+> [Interrupt discipline](#interrupt-discipline) — the roles matter, not the names.
