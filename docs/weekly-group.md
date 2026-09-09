@@ -81,12 +81,89 @@ the stop. The tank is the pace-setter — if the tank is uncertain, the pull is 
 **Healer** owns: dispels, and saying "no" to the next pull. A healer who says "let me drink" is
 saving the group four minutes of corpse running.
 
-**DPS** own: interrupts. This is the single biggest difference between a casual group that clears
-and one that does not. **Assign interrupt targets before the pull, not during it.** See
-[interrupts.md](interrupts.md).
-
 **Everyone** owns: soaking. A surprising number of Fellowship mechanics are "someone must stand in
 the circle", and they wipe groups purely through nobody claiming it.
+
+**Interrupts are owned by the tank and the DPS — not by the DPS alone.** Healers have no interrupt at
+all, so your party has **three**, and leaving the tank out of the rotation discards a third of them.
+This is the single biggest difference between a casual group that clears and one that does not.
+**Assign targets before the pull, not during it.** See [interrupts.md](interrupts.md).
+
+## Our four: Helena, Vigour, Elarion, Gunde
+
+These are the assignments that hold in **every** dungeon, so they are worth learning once rather than
+re-deciding each week. Anything fight-specific stays on the dungeon page.
+
+### Interrupts — three, and they are not interchangeable
+
+| Player | Interrupt | Standing job |
+|---|---|---|
+| **Elarion** | **Disrupt**, 30 yd | **The banker.** On any boss with an expensive interruptible cast, his kick is reserved for it and spent on nothing else |
+| **Helena** | **Bash** | Rotates the cheap, frequent cast with Gunde |
+| **Gunde** | **Jawbreaker**, melee | Rotates with Helena |
+| **Vigour** | *(none)* | **Throw Book** is a 2s stun — a bonus fourth kick on trash, useless on bosses and on CC-immune mobs |
+
+**Why Elarion always banks:** 30 yards of range and a kit that fires while moving mean he is the only
+one of you who can reliably kick *during* a mechanic that scatters or knocks up the group. Helena and
+Gunde are both standing in the melee, which is exactly where those effects land.
+
+**Which bosses this actually matters on** — everywhere else your kicks are for trash:
+
+| Dungeon | The banked cast |
+|---|---|
+| [Wyrmheart](../dungeons/wyrmheart.md) | Frigid Mists |
+| [Stormwatch](../dungeons/stormwatch.md) | Dread Arc |
+| [Scryer's Peak](../dungeons/scryers-peak.md) | Fatalistic Ritual |
+| [Wraithtide Vault](../dungeons/wraithtide-vault.md) | Shadowgreed Eclipse |
+| [Xul](../dungeons/xul-the-blood-monolith.md) | Vel'korath — **three** interruptible casts, all hands |
+
+### Elarion is your default "furthest player"
+
+An unusual number of mechanics target **whoever is furthest from the boss**, and with one ranged DPS
+that is Elarion by default, every time. This is worth knowing as a standing fact rather than a
+surprise:
+
+| Dungeon | Mechanic targeting the furthest player |
+|---|---|
+| Cithrel's Fall | **Volatile Orb** chases the furthest — he is the designated baiter |
+| Urrak Markets | **Conjure Scythe** is thrown at the furthest |
+| Ransack of Drakheim | **Grasping Pillar** spawns under the furthest |
+
+**This cuts both ways, and that is the useful part.** Elarion owns these mechanics by default — but he
+can also *decline* one by closing distance for a few seconds, handing it to someone better placed.
+Knowing which of you is furthest is a lever, not just a fact.
+
+### Vigour is your only dispeller
+
+No one else can do it, so a missed dispel is never someone else's job.
+
+- **Carry a Mass Dispel relic in [Everdawn Grove](../dungeons/everdawn-grove.md)** — Skittershards
+  apply a stacking healing-reduction DoT to everyone on death, and it is close to mandatory if you
+  pull several.
+- **Lethal-if-they-expire dispels:** Converging Cold and Freezing Blood in Cithrel's Fall, Heartstopper
+  in Silken Hollow. These are not throughput decisions.
+- **Her rune economy is worst exactly where you spend your pushes.** Dawnbreaker Orb's generation
+  scales with targets hit, so she is comfortable in trash and tight on every single-target boss.
+
+### Two melee, one ranged — what follows
+
+Helena and Gunde are your melee; Elarion and Vigour play at range.
+
+- **Gunde owns anything that punishes having no melee in range** — notably Barbed Roots in
+  [Heart of Tuzari](../dungeons/heart-of-tuzari.md), which channel Toxic Spores at the group if
+  nobody is on them.
+- **Soak splits fall out naturally at four.** Where a fight wants two circles covered, the default is
+  Helena solo on one and the other three on the second — that is the explicit instruction for Titanic
+  Slam in [Godfall Quarry](../dungeons/godfall-quarry.md), and it generalises.
+- **Watch Elarion's threat on long single-target fights.** A geared archer can pull off Helena;
+  **Draconic Deceit** (−15% threat) is the fix and drops in Wyrmheart and Godfall Quarry.
+
+### Build switching costs you almost nothing
+
+Worth knowing for a group that does not respec between pulls: **Gunde's three builds share the same
+talent allocation.** Switching him to the single-target build for a boss is a change of button
+priority, not a respec — free and immediate at the door. Only the stat line is slow. See
+[his page](../heroes/dps/gunde.md#you-do-not-respec-to-switch-between-them).
 
 ## Between sessions — the five-minute version
 
