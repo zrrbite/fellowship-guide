@@ -3,6 +3,21 @@
 One page. The single highest-leverage document here for a casual group, because missed interrupts
 cause more wipes than bad gear ever will.
 
+## How interrupts actually work
+
+Four facts that govern every assignment on this page:
+
+1. **Only Tanks and DPS have an Interrupt.** Healers do not. A standard party therefore has
+   **three interrupts, not four** — tank plus two DPS.
+2. **The cooldown is about 20 seconds** (Elarion's Disrupt and Rime's are both 20s). Some melee
+   heroes are reported to have shorter ones; treat 20s as the planning number.
+3. **A successful interrupt locks the target out of casting for 4 seconds** — *except against
+   dedicated boss timers*. Kicking a boss does **not** delay its next cast. Boss cadences are fixed,
+   so you cannot buy time by kicking early.
+4. **Use the Interrupt Tracker.** Default key **V**. It marks the enemy you are targeting with your
+   kick and shows your allies whether yours is ready. This is the tool that makes everything below
+   work without anyone talking over each other.
+
 ## How to use this
 
 **Assign targets before the pull.** "I have the caster on the left, you have the one on the right"
@@ -25,20 +40,27 @@ Regardless of dungeon, interrupt in this order:
 ## Banking: the rule that actually wins boss fights
 
 **An interrupt spent is an interrupt you do not have.** Several bosses pair a *cheap, frequent,
-interruptible* cast with an *expensive, slow, interruptible* one. Kicking the cheap one on reflex is
-how groups arrive at the expensive one with nothing available. This is the most common cause of a
-wipe on a fight the group otherwise knows.
+interruptible* cast with an *expensive, slow, interruptible* one. The failure is not that you lack
+kicks overall — it is that all of them can be on cooldown at the one moment that matters.
 
-**Name one player whose interrupt is reserved for the expensive cast and is never spent on anything
-else.** Name a second and third behind them, in order.
+**The fix is a rotation with one player held in reserve, not abstinence.** With three interrupts at
+20 seconds, holding one back costs you very little and guarantees the expensive cast is covered.
 
-| Boss | The bait — let it through | The one that matters — always kick |
-|---|---|---|
-| Apostate Veras ([Wyrmheart](../dungeons/wyrmheart.md)) | **Icy Death**, 12s | **Frigid Mists**, 33s |
-| Warlord Brogg ([Stormwatch](../dungeons/stormwatch.md)) | **Charged Bolt**, ~0s | **Dread Arc**, 20s |
+### Do the arithmetic before you decide to skip a cast
 
-Both bosses recast the bait two to three times per cycle of the real one. A party that kicks every
-Icy Death has zero interrupts available when Frigid Mists lands.
+Work in one cycle of the expensive cast, and compare supply against demand:
+
+- **Supply** = 3 interrupters × (cycle length ÷ 20s cooldown)
+- **Demand** = 1 expensive cast + (cycle length ÷ cheap cast recast)
+
+| Boss | Cycle | Supply | Demand | Verdict |
+|---|---|---|---|---|
+| Apostate Veras ([Wyrmheart](../dungeons/wyrmheart.md)) | Frigid Mists, 33s | ~4.95 kicks | 1 + 2.75 Icy Death = ~3.75 | **Kick both.** Two rotate Icy Death, one banks Mists |
+| Warlord Brogg ([Stormwatch](../dungeons/stormwatch.md)) | Dread Arc, 20s | ~3 kicks | 1 + *continuous* Charged Bolt | **Let Charged Bolt go.** Its recast is effectively zero, so no rotation can cover it |
+
+The two cases genuinely differ. Icy Death at 12s is coverable by a two-person rotation — two kicks
+on 20s cooldowns produce one every 10 seconds on average, comfortably inside a 12-second cast. Charged
+Bolt is not coverable by anything, so kicking it is pure waste of a Dread Arc kick.
 
 ## Interruptible boss casts — the complete list
 
@@ -48,9 +70,9 @@ rotation, because it tells you when to stop holding a kick you will never use.
 | Dungeon | Boss | Interruptible cast | Kick it? |
 |---|---|---|---|
 | Wyrmheart | Apostate Veras | Frigid Mists | **Always** — every miss permanently shrinks the arena |
-| Wyrmheart | Apostate Veras | Icy Death | No — it is the bait |
+| Wyrmheart | Apostate Veras | Icy Death | Yes — but only the **two** players not banking for Mists |
 | Stormwatch | Warlord Brogg | Dread Arc | **Always** — it chains across the party |
-| Stormwatch | Warlord Brogg | Charged Bolt | No — it is the bait |
+| Stormwatch | Warlord Brogg | Charged Bolt | No — its recast is effectively zero, so no rotation covers it |
 | Urrak Markets | Slavetrader Brull | Wild Bolt | **Freely** — it is the only kickable cast in the encounter |
 | Scryer's Peak | Overlord Varux | Fatalistic Ritual | **Always** — break the shield first |
 | Wraithtide Vault | Bael'Aurum | Shadowgreed Eclipse | **Always** — 8s of party-wide damage |

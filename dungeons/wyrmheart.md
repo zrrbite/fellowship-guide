@@ -38,7 +38,7 @@ service of one goal: kill him before Frigid Mists eats the floor.
 
 | Ability | Recast | Interruptible | What happens | What to do |
 |---|---|---|---|---|
-| **Icy Death** | 12s | **Yes** | Short cast, heavy damage on the tank | **Do not spend your banked kick on this** — see below |
+| **Icy Death** | 12s | **Yes** | Short cast, heavy damage on the tank | **Two players rotate it.** The third never touches it — see below |
 | **Splintering Ice** *(Adept+)* | 18s | No | Debuff on a random player; on expiry or dispel they take heavy damage and fire 6 projectiles | Dispel quickly **while the target stands still and clear of the group** |
 | **Howling Blast** | 25s | No | Wide cone at the current target, lethal damage, **long knockback** | Stand on the boss's **flank**, never in front. Tank points it at a wall, then steps out |
 | **Glacial Spikes** | 30s | No | Long channel, 6 spikes over time under 4 party members, erupting with a **knock-up** | Move in a **tight arc around the boss**, not outward |
@@ -57,26 +57,43 @@ frequency, and it is the stretch that wipes groups, because during the overlap:
 - Erupting spikes **knock your interrupters into the air**, and an airborne character cannot kick.
 - Everyone is scattered and stutter-stepping, so half the group is out of interrupt range.
 - Howling Blast, drifting on its own 25s cycle, may knock the tank out of range at the same moment.
-- **Icy Death has come up two or three times since the last Mists.** If the group has been dutifully
-  kicking it, every interrupt in the party is on cooldown.
+- **Icy Death has come up two or three times since the last Mists.** If everyone has been kicking it
+  on reflex, all three interrupts can be down at the one moment that matters.
 
-That last point is the usual cause of the wipe. The fight punishes you for spending kicks on the
-wrong cast, and then presents the bill during the overlap.
+The fight does not punish you for kicking Icy Death. It punishes you for kicking it *with everybody*.
 
 ### Interrupt discipline
 
-1. **Bank one interrupt.** Name one player whose kick is reserved *exclusively* for Frigid Mists and
-   is never spent on Icy Death. Name a second and third behind them, in order.
-2. **Icy Death at 12s cannot share a kicker with Frigid Mists at 33s.** The arithmetic does not
-   permit it. Let the tank and healer absorb Icy Death — it is heavy tank damage, not lethal group
-   damage, and Mists is *permanent* where Icy Death is not.
-3. **Call the convergence.** The drift is a constant 3 seconds, so you get a full cycle of warning.
+**You have three interrupts, not four** — healers do not get one — on roughly 20-second cooldowns.
+Run the numbers over one Frigid Mists cycle:
+
+| | Per 33 seconds |
+|---|---|
+| **Supply** | 3 interrupters × (33 ÷ 20) ≈ **4.95 kicks** |
+| **Demand** | 1 Frigid Mists + 2.75 Icy Death ≈ **3.75 kicks** |
+
+**There is enough, with margin.** The assignment that covers everything:
+
+1. **Two players rotate Icy Death.** Two kicks on 20-second cooldowns produce one every 10 seconds
+   on average, against a 12-second cast — full coverage. Alternate strictly; do not both kick the
+   same cast.
+2. **The third player banks for Frigid Mists and never touches Icy Death.** A single 20s cooldown
+   covers a 33s cadence with room to spare.
+3. **Mark it with the Interrupt Tracker** (default **V**). The banked player marks Veras, so everyone
+   can see the kick is held and ready without anyone calling it out.
+4. **Call the convergence.** The drift is a constant 3 seconds, so you get a full cycle of warning.
    When Mists arrives noticeably closer to Spikes than it did last time, the banked kicker says so
    and stands still on the boss through the next spike set, eating the knock-up to hold position.
-4. **A late kick still counts.** Puddle count scales with channel duration. An interrupt 1.5 seconds
+   **This is the real constraint** — not cooldowns, but being airborne or knocked out of range at the
+   moment the cast starts.
+5. **A late kick still counts.** Puddle count scales with channel duration. An interrupt 1.5 seconds
    late is enormously better than no interrupt.
-5. **Agree a retreat direction.** If you genuinely cannot cover a cycle, lose the arena from one
+6. **Agree a retreat direction.** If you genuinely cannot cover a cycle, lose the arena from one
    side rather than from the middle.
+
+> **Note:** interrupting a boss does **not** push back its next cast — boss cadences are on dedicated
+> timers, so the 4-second cast lockout does not apply. Kicking Icy Death early buys you nothing
+> except a cast prevented.
 
 ## At Champion and above
 
@@ -88,8 +105,8 @@ wrong cast, and then presents the bill during the overlap.
   [`docs/progression.md`](../docs/progression.md) for Champion targets (~190 entry, 240-250 exit).
 
 ### The three things to get right
-1. **Bank a kick for Frigid Mists and never spend it on Icy Death.** Every missed Mists permanently
-   shrinks the arena.
+1. **One player banks a kick for Frigid Mists while the other two rotate Icy Death.** Every missed
+   Mists permanently shrinks the arena.
 2. **Fight from the flank and turn tightly during Spikes.** Both knockbacks exist to push your
    interrupters out of range at the worst moment.
 3. **Stack for Burrowed Strike** on the Greater Ice Elementals in the trash — splitting it is trivial

@@ -36,10 +36,13 @@ Brogg has **two interruptible casts, and they are not equally worth kicking**:
 | **Charged Bolt** | **effectively none** | **No.** High damage to one random player. It comes back immediately, so every kick you spend here is a kick you do not have twenty seconds later |
 | **Dread Arc** | **20s** | **Yes, every time.** 3s cast, then high damage to a random player **chaining to the rest of the party** |
 
-This is the same trap as Apostate Veras in [Wyrmheart](wyrmheart.md): a cheap, frequent, interruptible
-tank/single-target cast that drains the party's interrupts before the expensive one lands. **Bank at
-least two kicks for Dread Arc and let Charged Bolt through.** The healer can cover Charged Bolt;
-nobody covers a chained Dread Arc.
+**Why this differs from [Wyrmheart](wyrmheart.md).** There, Icy Death recasts every 12 seconds, which
+a two-person rotation on 20-second cooldowns can genuinely cover. Charged Bolt has **no meaningful
+recast at all** — it simply returns. No rotation covers it, so every kick spent on it is a Dread Arc
+kick thrown away.
+
+**Bank at least two kicks for Dread Arc and let Charged Bolt through.** The healer covers Charged
+Bolt with throughput; nobody covers a chained Dread Arc.
 
 ### Bridge phase (down to 80%)
 

@@ -39,6 +39,7 @@ ability names, and closed the Vel'korath gap. See *Audit findings* below.
 | [Icy Veins — Sailor's Abyss Dungeon Guide](https://www.icy-veins.com/fellowship/news/sailors-abyss-dungeon-guide/) | Sinthara recast timings; line-of-sight mechanic |
 | [Icy Veins — Dungeon Curses Guide](https://www.icy-veins.com/fellowship/news/dungeon-curses/) | All curses, their bonuses, and league gating — [`docs/curses.md`](docs/curses.md) |
 | [Fextralife — Apostate Veras](https://fellowship.wiki.fextralife.com/Apostate+Veras) | Cross-check on Wyrmheart boss naming |
+| [Fextralife — Disrupt](https://fellowship.wiki.fextralife.com/Disrupt) | Interrupt cooldown (20s), range (30 yd), 4s cast lockout |
 
 ## Audit findings, 2026-09-09
 
@@ -70,6 +71,20 @@ ability names, and closed the Vel'korath gap. See *Audit findings* below.
 | Shadowgreed Eclipse described as a damage check | **Interruptible** | Wraithtide Vault |
 | Deafening Screech described as a cast-timing check | **Line-of-sight** — block with the mast | Sailor's Abyss |
 | Unholy Hymn as always three stages | **Three at 80/60/40 with Vayr's Legacy; two at 66/33 without** | Ruins of Regath |
+
+**Interrupt mechanics, added 2026-09-09.** The repo previously documented *what* to interrupt across
+15 dungeons without ever documenting *how interrupts work*. Now in
+[`docs/interrupts.md`](docs/interrupts.md): **only Tanks and DPS have an Interrupt**, so a party has
+**three**, not four; the cooldown is **~20s**; a successful interrupt locks a target out for **4
+seconds except against dedicated boss timers**, meaning kicking a boss never delays its next cast;
+and the **Interrupt Tracker (default V)** broadcasts your kick target and readiness to the party.
+
+This corrected the Wyrmheart advice. An earlier revision of that page claimed Icy Death (12s) and
+Frigid Mists (33s) "cannot share a kicker" and told groups to eat Icy Death. That was wrong: three
+interrupters on 20s cooldowns supply ~4.95 kicks per 33s cycle against ~3.75 demanded. The correct
+assignment is **two players rotating Icy Death while a third banks for Frigid Mists**, which covers
+both. The Stormwatch verdict was unaffected — Charged Bolt has no meaningful recast, so no rotation
+can cover it — but its reasoning was rewritten to say so.
 
 **Newly documented:** Icy Death (Wyrmheart), Arcane Volley and Actuate Ambush (Cithrel's Fall),
 Anchor Strike and Temptation and Thwart the Mutiny (Wraithtide Vault), Hemorrhaging Strike and the
@@ -109,6 +124,12 @@ full Han-Eth and Vel'korath kits (Xul).
   pages therefore have no recast column, and none was invented.
 - **Stormwatch's *Forked Lightning*** appears in this repo's earlier notes but in no current source
   listing for Warlord Brogg. Flagged on the page as unverified.
+- **Per-hero interrupt cooldowns are undocumented here.** No hero page names its interrupt ability.
+  Only two figures are confirmed (Elarion's Disrupt and Rime's, both 20s), and one secondary source
+  claims melee heroes have shorter cooldowns than ranged without giving numbers. **20s is used as the
+  planning figure throughout.** If melee kicks are meaningfully shorter, the interrupt arithmetic in
+  [`docs/interrupts.md`](docs/interrupts.md) is conservative rather than wrong. Adding an interrupt
+  line to each hero page is the highest-value gap left in this repo.
 - **Xul'vorith's conduit trade** is reported by Method as deactivating a conduit granting the boss
   **+20% damage**. The direction of that trade is counterintuitive and worth verifying in-game.
 - **Godfall Quarry boss count.** Method presents Godfall Titan and Vaerith Vorn under separate
