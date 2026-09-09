@@ -20,20 +20,21 @@ it.
 | **Bully Basher** | **CC-immune.** **Together Stronk!** gives all nearby mobs **20% damage reduction**. | **Interrupt Together Stronk!** Missing it turns a 20-second pull into a minute. |
 | **Gravesnare Kidnapper** | **Kidnap** forcibly displaces a player | Interrupt or CC **every** cast |
 | **Rotheart Recluse** | **Heartstopper** debuffs a random player | **Dispel immediately** — otherwise it is lethal |
-| **Venom Drinker** (Vayr's Legacy) | **Poisonado** chases the tank, stacking Necrotic Venom | CC the cast |
+| **Venom Drinker** (Vayr's Legacy) | **Venom Bolt** targets the tank; **Poisonado** chases the tank, stacking Necrotic Venom | Interrupt Venom Bolt, CC the Poisonado |
 
 ## Boss: Vexira, Mother of Nightmares
 
 | Mechanic | What happens | What to do |
 |---|---|---|
-| **Fang Strike** | Heavy tank melee | Tank uses an active defensive |
-| **Tethering Webs** | Stuns two players unless they separate | **Move apart immediately** or take Devour damage |
-| **Call Children** | Spawns spiderlings plus a Recluse or a Kidnapper | Focus the named add down fast |
-| **Mothers Milk** | Channel that **empowers the adds** and stacks party-wide damage | **Kill the adds before this channel starts.** Stack defensives if it lands. |
-| **Venom Spray** | Three consecutive cones at random targets | Keep moving; do not bunch up |
+| **Fang Strike** | Powerful strike on the tank for high damage | Tank uses an active defensive |
+| **Tethering Webs** | Connects two players with a tether, **stunning them if they do not break it by moving apart** | **Move apart immediately** — a stun here feeds Devour |
+| **Devour** | Vexira devours **any player stunned by Tethering Webs**, for a huge amount of damage | Not a separate thing to dodge. It is the punishment for failing the tether |
+| **Call Children** | Summons her brood, **including either a Rotheart Recluse or a Gravesnare Kidnapper** | Focus the named add down fast — it brings its trash abilities with it |
+| **Mother's Milk** | Channel **empowering her brood with increased health and damage**, plus escalating party-wide damage | **Kill the adds before this channel starts.** Stack defensives if it lands |
+| **Venom Spray** | Sprays venom repeatedly in front of her, **targeting a random player each time** | Keep moving; do not bunch up |
 
 ### The three things to get right
-1. **Kill Call Children adds before Mothers Milk.** The entire difficulty of this fight is whether
+1. **Kill Call Children adds before Mother's Milk.** The entire difficulty of this fight is whether
    the adds are alive when the channel begins.
 2. **Break web tethers on sight** — two people running apart, no discussion needed.
 3. **Dispel Heartstopper in the trash.** It is the only genuinely lethal trash mechanic here.

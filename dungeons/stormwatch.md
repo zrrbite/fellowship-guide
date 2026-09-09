@@ -17,31 +17,57 @@ then the real encounter. The 80% phase is a rehearsal — use it to check interr
 | Mob | What it does | What to do |
 |---|---|---|
 | **Executioner** | **CC-immune.** Damage **scales with your missing health**. Cleaves, stacking a 5% damage vulnerability. | **Tank faces away from the group.** Top players off — being low is what kills you here. |
-| **Bully Basher** | **CC-immune.** **Together Stronk!** gives nearby mobs 20% DR. | Interrupt Together Stronk! |
-| **Stormscreamer** | Ball Lightning and lightning bolts | Interrupt Ball Lightning |
+| **Bully Basher** | **CC-immune.** **Together Stronk!** gives nearby mobs 20% DR. *(Adept+)* | Interrupt Together Stronk! |
+| **Stormscreamer** | **Crackling Bolt** and **Ball Lightning**; **Sky Zapper** added at Adept+ | Interrupt Ball Lightning first |
+| **Profane Invoker** | **Shadow Bolt**; **Wither** added at Adept+ | Interrupt |
+| **Ashen Arsonist** | **Flame Blast**; **Big Oogha Flame** added at Adept+ | Interrupt; stay out of the cone |
 
 **Interrupt priority:** Together Stronk! (Bully Basher) > Ball Lightning (Stormscreamer) >
 Shadow Bolt (Profane Invoker) > Flame Blast (Ashen Arsonist).
 
 ## Boss: Warlord Brogg
 
+### The kick trap
+
+Brogg has **two interruptible casts, and they are not equally worth kicking**:
+
+| Cast | Recast | Worth a kick? |
+|---|---|---|
+| **Charged Bolt** | **effectively none** | **No.** High damage to one random player. It comes back immediately, so every kick you spend here is a kick you do not have twenty seconds later |
+| **Dread Arc** | **20s** | **Yes, every time.** 3s cast, then high damage to a random player **chaining to the rest of the party** |
+
+This is the same trap as Apostate Veras in [Wyrmheart](wyrmheart.md): a cheap, frequent, interruptible
+tank/single-target cast that drains the party's interrupts before the expensive one lands. **Bank at
+least two kicks for Dread Arc and let Charged Bolt through.** The healer can cover Charged Bolt;
+nobody covers a chained Dread Arc.
+
 ### Bridge phase (down to 80%)
-| Mechanic | What to do |
-|---|---|
-| **Dread Arc** | **Interrupt every cast** — this is group damage |
-| **Charged Bolt** | Interrupt when you can spare one |
-| **Forked Lightning** | Tank takes it away from the group |
+
+A rehearsal with a reduced kit. Use it to confirm your Dread Arc assignments before the real pull.
 
 ### Final phase
-| Mechanic | What happens | What to do |
-|---|---|---|
-| **Storm's Conduit** | Unavoidable passive damage **every second** | The healer plans around a constant drain — this shortens the fight's viable length |
-| **Mancatchers** | Two adds spawn | Cleave them down quickly |
-| **Perfect Storm** | 12-yard explosion after 3 seconds | Dangerous while Mancatchers are up; get clear |
-| **Lightning Rod** (Vayr's Legacy) | Damaging circle lasting 12 seconds | Group together, use healing cooldowns, **keep interrupting the boss** |
+
+| Ability | Recast | Interruptible | What happens | What to do |
+|---|---|---|---|---|
+| **Charged Bolt** | ~0s | **Yes** | High damage to a random party member | **Let it through.** See the kick trap above |
+| **Dread Arc** | **20s** | **Yes** | 3s cast, then high damage chaining across the party | **Never miss it.** Two assigned kickers, in order |
+| **Perfect Storm** | 32s | No | 3s channel, then massive damage to everyone **nearby** | Get clear. Lethal while Mancatchers are up |
+| **Lightning Rod** *(Vayr's Legacy — Adept+)* | 38s | No | AoE on a random player dealing continuous damage **divided among all players** | **Stack in it deliberately.** Splitting is the mechanic; spreading is what kills you |
+| **Raiders** | **70s** | No | Summons **2 Mancatchers** | Cleave them down before the next Perfect Storm |
+| **Storm's Conduit** | passive | No | Constant periodic lightning damage, jolting nearby heroes | The healer plans around a permanent drain — this caps how long the fight can run |
+
+### Why it gets ugly around the one-minute mark
+
+Dread Arc is on 20s and Perfect Storm on 32s, so they collide every 160 seconds. Raiders lands every
+70s. The dangerous window is **Perfect Storm arriving while Mancatchers are alive and Dread Arc is
+due** — that is the wipe, and it is on a fixed schedule rather than a random one. Save a group
+defensive for it rather than spending cooldowns early.
 
 ### The three things to get right
-1. **Never miss Dread Arc.** Assign two people so a missed interrupt has a backup.
+1. **Never miss Dread Arc, and never kick Charged Bolt.** Assign two people to Dread Arc so a missed
+   interrupt has a backup.
 2. **Kill Mancatchers fast** — they are what makes Perfect Storm lethal.
-3. **Keep everyone topped in the trash.** Executioners punish low health specifically, so healing
-   through the pull matters more here than raw throughput.
+3. **Stack for Lightning Rod.** The damage is split between everyone standing in it.
+
+> **Source gap:** earlier notes here listed a bridge-phase cast called *Forked Lightning*. It does
+> not appear in current Icy Veins or Method ability listings for Brogg. Treat it as unverified.

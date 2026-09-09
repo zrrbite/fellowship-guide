@@ -3,6 +3,10 @@
 All data in this repository was gathered on **2026-09-05** and reflects
 **Fellowship Early Access Season 3 — "Rise of the Heskyr"** (launched 2026-06-22).
 
+**Boss ability audit, 2026-09-09.** Every dungeon page was re-checked against source ability
+listings. This added recast timings and interruptible flags where published, corrected several
+ability names, and closed the Vel'korath gap. See *Audit findings* below.
+
 ## Primary sources
 
 | Source | Used for |
@@ -27,6 +31,51 @@ All data in this repository was gathered on **2026-09-05** and reflects
 | [Fellowship Wiki — Crafter, Scrapper & Blacksmith](https://fellowship.wiki.fextralife.com/Crafter,+Scrapper+&+Blacksmith) | Crafting NPCs (older terminology; see conflicts) |
 | [Overgear — Dungeon Tier List](https://overgear.com/guides/fellowship/dungeon-tier-list/) | Farming value rankings (conflicts with Method on difficulty) |
 | [Boostmatch — Xul Nightmare Guide](https://boostmatch.gg/blog/fellowship/articles/xul-blood-monolith-nightmare-guide) | Pinnacle boss mechanics |
+| [Icy Veins — Wyrmheart Dungeon Guide](https://www.icy-veins.com/fellowship/news/wyrmheart-dungeon-guide/) | Apostate Veras recast timings and interrupt flags |
+| [Icy Veins — Empyrean Sands Dungeon Guide](https://www.icy-veins.com/fellowship/news/empyrean-sands-dungeon-guide/) | Sin-Magir recast timings; Adept+ gating |
+| [Icy Veins — Everdawn Grove Dungeon Guide](https://www.icy-veins.com/fellowship/news/everdawn-grove-dungeon-guide/) | Malgut recast timings; Adept+ gating |
+| [Icy Veins — Stormwatch Dungeon Guide](https://www.icy-veins.com/fellowship/news/stormwatch-dungeon-guide/) | Warlord Brogg recast timings; trash Adept+ casts |
+| [Icy Veins — Urrak Markets Dungeon Guide](https://www.icy-veins.com/fellowship/news/urrak-markets-dungeon-guide/) | Brull and Drazhul recast timings |
+| [Icy Veins — Sailor's Abyss Dungeon Guide](https://www.icy-veins.com/fellowship/news/sailors-abyss-dungeon-guide/) | Sinthara recast timings; line-of-sight mechanic |
+| [Icy Veins — Dungeon Curses Guide](https://www.icy-veins.com/fellowship/news/dungeon-curses/) | All curses, their bonuses, and league gating — [`docs/curses.md`](docs/curses.md) |
+| [Fextralife — Apostate Veras](https://fellowship.wiki.fextralife.com/Apostate+Veras) | Cross-check on Wyrmheart boss naming |
+
+## Audit findings, 2026-09-09
+
+**Resolved:**
+
+- **Vayr's Legacy is the Adept+ ability.** Previously described only as "affix-gated additions at
+  higher difficulty". Cross-checking five dungeons showed that every mechanic tagged Vayr's Legacy
+  here is exactly the one sources tag *Adept+ only*. Documented in
+  [`docs/dungeons.md`](docs/dungeons.md). **Consequence: every such mechanic is permanently live for
+  a Champion group.**
+- **Vel'korath**, previously listed as having "little public mechanical detail", now has a full
+  ability list from the Method dungeon guide, including three interruptible casts.
+- **Sin-Magir and Malgut share an identical recast skeleton** — 18.5 / 23 / 28 / 30 / 60 seconds,
+  with the 18.5s slot being the Vayr's Legacy addition in both.
+
+**Corrected:**
+
+| Was | Is | Where |
+|---|---|---|
+| *Creeping Death* | **Creeping Decay**, and it is **not** interruptible | Urrak Markets |
+| *Celestial Burst* as a cast | **Darkstar Ruin**; Celestial Bursts are what it summons | Empyrean Sands |
+| *Sinnari's Judgment* | **Lunar Beam** | Empyrean Sands |
+| *Bloodstone Totems* | **Summon Totems** | Everdawn Grove |
+| *Bloodmarked / Crimson Assault* | **Bloodmarked Assault** and **Crimson Crucifix** — two separate casts | Scryer's Peak |
+| *Barched Chain* | **Barbed Chain** | Ransack of Drakheim |
+| *waystones* | **Wardstones** | Godfall Quarry |
+| Godrot Eclipse listed as an interrupt target | **Not interruptible** — stopped by Akari's charge stun | `docs/interrupts.md` |
+| Furious Tantrum listed as an interrupt target | **Not interruptible** | `docs/interrupts.md` |
+| Shadowgreed Eclipse described as a damage check | **Interruptible** | Wraithtide Vault |
+| Deafening Screech described as a cast-timing check | **Line-of-sight** — block with the mast | Sailor's Abyss |
+| Unholy Hymn as always three stages | **Three at 80/60/40 with Vayr's Legacy; two at 66/33 without** | Ruins of Regath |
+
+**Newly documented:** Icy Death (Wyrmheart), Arcane Volley and Actuate Ambush (Cithrel's Fall),
+Anchor Strike and Temptation and Thwart the Mutiny (Wraithtide Vault), Hemorrhaging Strike and the
+Barbed Roots 40% damage link (Heart of Tuzari), Frigid Presence and Darkness Falls (Ransack of
+Drakheim), Magic Missiles and Vaerith Vorn's role (Godfall Quarry), Devour (Silken Hollow), and the
+full Han-Eth and Vel'korath kits (Xul).
 
 ## Known gaps and conflicts
 
@@ -54,7 +103,22 @@ All data in this repository was gathered on **2026-09-05** and reflects
 - **Gem drop threshold** is given as Contender 4 (Icy Veins) or Contender 7 (Method).
 - **Several dungeon pages lack an explicit pull order** in the source, which points to the Route
   Planner tool instead. Those pages say so rather than inventing a route.
-- **Vel'korath**, the third Xul boss, has little public mechanical detail. The page says so.
+- **Icy Veins publishes structured recast/interruptible tables for only six dungeons** — Wyrmheart,
+  Empyrean Sands, Everdawn Grove, Stormwatch, Urrak Markets and Sailor's Abyss. The other nine pages
+  carry ability lists and interrupt flags from Method, which does **not** publish cadences. Those
+  pages therefore have no recast column, and none was invented.
+- **Stormwatch's *Forked Lightning*** appears in this repo's earlier notes but in no current source
+  listing for Warlord Brogg. Flagged on the page as unverified.
+- **Xul'vorith's conduit trade** is reported by Method as deactivating a conduit granting the boss
+  **+20% damage**. The direction of that trade is counterintuitive and worth verifying in-game.
+- **Godfall Quarry boss count.** Method presents Godfall Titan and Vaerith Vorn under separate
+  headings; the Fextralife wiki treats it as a single encounter in which Vaerith Vorn attacks from
+  the air and cannot be killed. The single-encounter reading is used.
+- **Curse league gating is internally inconsistent in the source.** The Icy Veins curses guide labels
+  individual curses as starting at Adept or Champion, then states in summary that only one begins at
+  Adept and two at Champion. The per-curse labels are used in [`docs/curses.md`](docs/curses.md).
+- **Boss naming for Wyrmheart** varies: *Apostate Veras* in the boss guide, *Magistrate Veras* in the
+  Icy Veins dungeon overview text. Apostate Veras is used, matching Fextralife.
 
 ## Re-verifying after a patch
 

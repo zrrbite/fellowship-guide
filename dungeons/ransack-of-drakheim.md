@@ -35,16 +35,24 @@ debuff instead of his aura buffs** — a straight trade in your favour.
 | **Ashen Arsonist** | **Big Oogha Flame** (interruptible DoT), **Flame Blast** (frontal cone) | Interrupt; stay out of the cone |
 | **Craven Hiisi** | Leaps and channels **Bonk Noggin** | **CC** to stop it |
 | **Frenzied Looter** | Drops gold piles giving a damage buff but applying a slow | Judgement call — the slow is often not worth it |
-| **Bleakfrost Slaver** | **Barched Chain** links players | Interrupt; **linked players stand together** |
+| **Bleakfrost Slaver** | **Barbed Chain** links players | Interrupt; **linked players stand together** |
+| **Coldbrine Fiend** | **Icy Annihilation** | Interrupt |
 | **Nightmist Whisperer** | **Blinding Fear**, plus a Silence | Interrupt Fear; CC or dispel the Silence |
 
 ## Boss 1: Fodir Kaldur
-The aura fight. He alternates **Burning Aura** (damage when you move) and **Freezing Aura** (damage
-when you stand still).
+
+**None of the three bosses in this dungeon has an interruptible cast.** Every kick is for the trash.
+
+The aura fight. **Elemental Shift** alternates **Burning Aura** (stacking Magic DoT while you
+*move*, cleared by standing still) and **Freezing Aura** (stacking DoT while you *stand still*,
+cleared by moving).
 - **Position at the room edges and rotate counter-clockwise**, overlapping puddles so the centre stays open.
 - **Blazing Slam** leaves **permanent** puddles plus damage circles — this is why the rotation matters.
-- **Ice Tomb** stuns a random non-tank until destroyed. **Break it fast** — stand in puddles for bonus damage.
-- **Frost Bite** is a tank DoT — defensives ready.
+- **Ice Tomb** stuns a random non-tank until destroyed, **once per burning phase**. **Break it fast**
+  — stand in puddles for bonus damage.
+- **Frost Bite** is a tank DoT over 4 seconds, **once per elemental phase** — defensives ready.
+- **Frigid Presence** slows you passively throughout. Factor it into every dodge; you are never at
+  full speed in this fight.
 - Healers dispel stacks for anyone who cannot move well.
 
 ## Boss 2: Chilgar the Drowned
@@ -59,8 +67,9 @@ Pure positioning and awareness. Constant movement.
 A dance fight with a DPS-check intermission.
 - **Revelation** roots a random player and creates a group soak — **start phases stacked**.
 - **Shadow Conduit** puts two lines in a narrow X through all players — **then loosely spread**.
-- **Dark Ritual** summons four **Nightmist Fiends**. **Find the Fiend whose symbol does not match the
-  three arena totems and focus it.**
+- **Dark Ritual** summons four **Nightmist Fiends** casting **Devouring Darkness**, whose damage
+  escalates. **Find the Fiend whose symbol does not match the three arena totems and focus it** —
+  killing the wrong one triggers **Darkness Falls**, which stuns the party.
 - **From the second intermission onward**, Shadow Conduit lines appear *during* the add phase,
   rotating through players. This is the hardest moment in the dungeon.
 

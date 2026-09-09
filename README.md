@@ -16,6 +16,7 @@ the most progress per hour of actual play?**
 | Which dungeon to run and how to pull it | [docs/dungeons.md](docs/dungeons.md), then the per-dungeon page |
 | What my character should do next | Your hero page, bottom section: **Focus Next** |
 | What to interrupt | [docs/interrupts.md](docs/interrupts.md) — one page, print it |
+| What our curse does this week | [docs/curses.md](docs/curses.md) — Champion unlocks four new ones |
 | How to craft/reroll my way to BiS | **[docs/optimisation.md](docs/optimisation.md)** — gems, reforging, what to spend and when |
 | Which dungeon drops the set I need | [docs/sets.md](docs/sets.md) |
 
@@ -64,7 +65,8 @@ kills casual groups, and a boss cheat sheet. Index and difficulty rankings in
 |---|---|
 | [docs/weekly-group.md](docs/weekly-group.md) | **The session plan.** How to spend one night a week. |
 | [docs/dungeons.md](docs/dungeons.md) | Dungeon index, difficulty tiers, set drop map, routing fundamentals |
-| [docs/interrupts.md](docs/interrupts.md) | Cross-dungeon interrupt and CC priority cheat sheet |
+| [docs/interrupts.md](docs/interrupts.md) | Cross-dungeon interrupt and CC priority cheat sheet, interrupt banking, the complete list of interruptible boss casts |
+| [docs/curses.md](docs/curses.md) | Dungeon curses, their bonuses, and which ones change our tactics |
 | [docs/progression.md](docs/progression.md) | Leagues, item level targets, what to chase per stage |
 | [docs/optimisation.md](docs/optimisation.md) | **Crafting economy.** Gem acquisition, transmutation, reforging, upgrading, tempering, spending order |
 | [docs/gems.md](docs/gems.md) | Gem colours, power tracks, per-hero targets |

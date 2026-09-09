@@ -48,7 +48,7 @@ Method's difficulty ranking, easiest first:
 | **A** | [Silken Hollow](../dungeons/silken-hollow.md) | Vexira | Low group damage, few forced interrupts, forgiving boss |
 | **A** | [Empyrean Sands](../dungeons/empyrean-sands.md) | Sin-Magir | Flexible routing around dangerous packs; healing recently retuned easier |
 | **B** | [Stormwatch](../dungeons/stormwatch.md) | Warlord Brogg | Forgiving until the final fight |
-| **B** | [Godfall Quarry](../dungeons/godfall-quarry.md) | Godfall Titan | Forgiving trash; boss punishes slow waystone kills |
+| **B** | [Godfall Quarry](../dungeons/godfall-quarry.md) | Godfall Titan | Forgiving trash; boss punishes slow Wardstone kills |
 | **B** | [Everdawn Grove](../dungeons/everdawn-grove.md) | Malgut the Fetid | Many dangerous casters; Malgut wipes groups over positioning |
 | **C (hardest)** | [Urrak Markets](../dungeons/urrak-markets.md) | Brull & Drazhul | Brutal final fight needing positioning, interrupts and defensives |
 
@@ -103,6 +103,29 @@ nothing happen.
 
 ## Vayr's Legacy
 
-Several dungeon pages reference **Vayr's Legacy** mechanics. These are affix-gated additions that
-appear at higher difficulty. If a mechanic on a page does not match what you see, you are likely
-below the difficulty that enables it.
+**Vayr's Legacy is the extra boss ability that switches on at Adept and stays on for every league
+above it.** Cross-checking five dungeons against source ability listings, every mechanic this repo
+tags as Vayr's Legacy is exactly the one the sources tag as *Adept+ only*:
+
+| Dungeon | Boss | The Vayr's Legacy ability |
+|---|---|---|
+| Wyrmheart | Apostate Veras | Splintering Ice |
+| Empyrean Sands | Sin-Magir | Lunar Beam |
+| Everdawn Grove | Malgut the Fetid | Summon Totems |
+| Stormwatch | Warlord Brogg | Lightning Rod |
+| Sailor's Abyss | Sinthara | Necrotic Wave |
+| Urrak Markets | Drazhul | Infernal Explosive |
+| Godfall Quarry | Godfall Titan | Wardstones |
+
+**What this means for us: every Vayr's Legacy mechanic in this repo is permanently live.** We are in
+Champion. These are not edge cases or footnotes to skim past — they are part of every pull we do.
+Only a Contender group ever sees a fight without them.
+
+It also cuts the other way. In [Ruins of Regath](../dungeons/ruins-of-regath.md), Vayr's Legacy
+changes Xurath's **Unholy Hymn from two stages at 66%/33% to three at 80%/60%/40%**. A group that
+learned that fight in Contender memorised the wrong numbers.
+
+## Dungeon curses
+
+Separately from Vayr's Legacy, **dungeon curses** begin at Adept and three more unlock at Champion.
+They modify the whole run rather than one boss. See [curses.md](curses.md).

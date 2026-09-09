@@ -24,14 +24,15 @@ once and run the same one every week — consistency is worth more to us than op
 
 ## Boss: Overlord Varux
 
-| Mechanic | What happens | What to do |
-|---|---|---|
-| **Spirit Strike** | Tank debuff, stacks damage on repeat casts | Tank rotates defensives across casts |
-| **Blood Link** | Two players tethered | Break it with distance. It stuns — expect it, do not panic. |
-| **Stampede** | Wolf pack charges through | Dodge. The debuff hurts badly if you eat it. |
-| **Bloodmarked / Crimson Assault** | Frontal cones | Spread so cones do not overlap the group |
-| **Rain of Blood** | Bloods spawn and travel toward Varux | **Soak them.** You get buffs; if they reach Varux, he does. |
-| **Fatalistic Ritual** | Intermission | Break the shield and interrupt the spell |
+| Mechanic | Interruptible | What happens | What to do |
+|---|---|---|---|
+| **Spirit Strike** | No | Tank damage plus a **20-second** debuff making the **next** Spirit Strike hit for **+50%** | Tank rotates a defensive onto every *second* cast. The debuff is a timer, not a stack — let it fall off where you can |
+| **Blood Link** | No | Links two players; ticking damage that **grows with distance**, and breaking it **stuns both** | Break it with distance anyway. The stun is the price, and it is cheaper than the tick |
+| **Stampede** | No | A pack of wolves charges across the arena; anyone hit takes **massive ticking damage** | Dodge. This is the single biggest avoidable hit in the fight |
+| **Bloodmarked Assault** | No | Frontal cone on **each** player after a few seconds | Spread so cones do not overlap |
+| **Crimson Crucifix** | No | Frontal cone on **each** player after a few seconds | Same answer — spread, do not stack for convenience |
+| **Rain of Blood** | No | Spawns Bloods around the arena that players can soak | **Soak them.** Anything you leave is **sucked into Varux during Fatalistic Ritual** |
+| **Fatalistic Ritual** | **Yes** | Intermission: sustained group damage until it is stopped, and it consumes leftover Bloods | **Break the shield, then interrupt the cast.** The only kick that matters in the fight |
 
 ### The three things to get right
 1. **Soak every blood.** This is the fight. Letting them reach Varux is how the fight gets hard.
