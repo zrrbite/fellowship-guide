@@ -108,6 +108,15 @@ rather than react — barrier the tank *before* the hit, not after it.
 - **Dawnbreaker Orb becomes substantially more efficient** when it hits multiple targets, generating
   far more runes. In a pull your rune economy is comfortable; on a boss it is not.
 
+**On a single-target boss your rune economy is tight**, because Dawnbreaker Orb's generation scales
+with targets hit and there are none to spare. Lean on Dawnflare, and consider spending some runes on
+**Soulbrand** — on a DPS-race boss, healing you did not need to cast is damage you could have
+contributed. See [Wyrmheart](../../dungeons/wyrmheart.md#vigour-play-her-proactively-here-against-type).
+
+**Play against type on predictable fights.** Vigour is the most reactive healer in the roster, but on
+a boss whose damage runs on fixed cast timers you should be *early* rather than fast — barrier before
+the hit lands.
+
 > **Unverified:** this repo previously described an **Avatar of Light** spirit form. It is not
 > documented in the Method rotation guide. Treat it as unconfirmed.
 

@@ -124,7 +124,7 @@ times a minute. A hero who does not, does not.
 | **Tank** | Every incoming hit is on a fixed timer. Pre-empt rather than react, and point Howling Blast at a wall on the far side from the melee |
 | **Healer** | You have **no interrupt** — do not plan around contributing one. Pre-shield to the tank's 12-second Icy Death cadence instead of reacting to it |
 
-## Our group: Helena, healer, Elarion, Gunde
+## Our group: Helena, Vigour, Elarion, Gunde
 
 This composition has an unusually clean answer, because the roles sort themselves.
 
@@ -138,10 +138,34 @@ have none, so there is no fourth.
 | **Elarion** | **Banks Frigid Mists. Never touches Icy Death.** | **Disrupt is 30 yards** and he can fire while moving. He is the only member who can guarantee a kick *during* the Spikes overlap, because he never has to stand where the knock-ups land |
 | **Helena** | Rotates Icy Death | Icy Death targets her by definition, so she is always in range |
 | **Gunde** | Rotates Icy Death | Melee range, already on the boss |
-| **Healer** | Nothing | No interrupt exists. If you are on Vigour, *Throw Book* is a 2s stun for trash only — Veras will resist it |
+| **Vigour** | Nothing on the boss | No healer has an interrupt. *Throw Book* is a 2s **stun** — useful on the way in, useless on Veras |
 
 Helena and Gunde alternate strictly — two kicks on ~20s cooldowns cover a 12s cast comfortably — while
 Elarion holds. That covers **every** Icy Death and **every** Frigid Mists.
+
+### Vigour: play her proactively here, against type
+
+Vigour is the most *reactive* healer in the roster, and Veras is the wrong boss to play reactively on.
+Every hit that matters is on a fixed timer, so you can be early instead of fast.
+
+- **Pre-shield Helena to the 12-second Icy Death cadence.** Luminous Barrier before the cast, not
+  after the damage. This is the single biggest change available to you on this fight.
+- **Your rune economy is tighter here than anywhere else.** Dawnbreaker Orb generates substantially
+  more runes when it hits multiple targets, and this boss has **no adds at all** — so you are running
+  on minimum generation for the entire fight. Lean on **Dawnflare**, and do not casually dump 5-rune
+  spenders.
+- **Spend some of it on Soulbrand.** This is a DPS race against permanent floor loss, and Soulbrand is
+  your rune spender that goes on the enemy. Healing you did not need to cast is damage you could have
+  contributed.
+- **Circle of Light is at its worst exactly when you need it.** The circle is small, and Glacial
+  Spikes scatters the party while Frigid Mists eats the floor. Do not plan group healing around it in
+  the second half of the fight — plan around Rune of Renewal uptime instead.
+- **You own the Splintering Ice dispel** (Adept+, every 18s). Dispel while the target is standing
+  still and clear of the group, or the icicles cleave.
+
+**On the trash, Throw Book genuinely matters.** It is effectively a fourth interrupt for the pull —
+use it on Deceitful Scholars, Blades of Cithrel and Eldrin Chronomancers. It will **not** work on
+Greater Ice Elementals, which are CC-immune.
 
 ### Elarion is the best-suited DPS in the roster for this fight
 
