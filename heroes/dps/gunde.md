@@ -16,7 +16,11 @@ different stat priorities**. Identify your build before you itemise.
 | **Heart Splitter** | Haste >>> Crit > Spirit > Expertise | Haste dominates; keep Spirit 10-15%; **avoid Expertise** |
 | **Spirit Bloodcraze** | Spirit > Haste > Expertise = Crit | Stack Spirit to **~50%**, then maximum Haste, with minimal Crit and Expertise |
 
-## Talent build — Grim Carve (starter, 14 points)
+## Talent build — Grim Carve (starter)
+
+> **Unverified:** the allocation below lists **18 talents totalling 30 points**, which does not match
+> the "14 points" this page previously claimed. The per-talent numbers come from the source; the
+> budget does not. Check against your own tree.
 
 | Tier | Talents |
 |---|---|
@@ -36,8 +40,29 @@ usage. **Its weakness:** it struggles with priority damage *while* doing AoE dam
 
 | Build | Focus |
 |---|---|
-| **Oathshatter Heart Splitter** | Best single-target specialisation. Same base talents, weighted into Oathshatter at tier 8. |
-| **Bloodcraze Spirit Blood Feather** | Strong AoE burst. Emphasises Bloodcraze generation and pairs with the ~50% Spirit itemisation. |
+| **Oathshatter Heart Splitter** | **Best single-target and priority damage.** The boss build |
+| **Bloodcraze Spirit Blood Feather** | Strong AoE burst. Pairs with the ~50% Spirit itemisation |
+
+### You do not respec to switch between them
+
+**The published talent allocation is identical for all three builds.** What actually separates them is
+**stat priority and button priority**, not talent points:
+
+| Build | Stat line | What you press |
+|---|---|---|
+| **Grim Carve** | Haste > Expertise > Crit > Spirit | Grim Carve spam, Slaughter to convert |
+| **Heart Splitter** | Haste >>> Crit > Spirit > **avoid Expertise** | Heart Splitter, and **never Slaughter** |
+| **Bloodcraze** | Spirit ~50% > Haste > Expertise = Crit | Bloodcraze generation |
+
+This matters a great deal for a group that plays one night a week and
+[does not respec between pulls](../../README.md). **Gunde can switch to the boss build at the door of
+Wyrmheart without touching his talent tree** — he changes his priority list, and his gear catches up
+over the following weeks. The stat line is the slow part; the rotation is free and immediate.
+
+> **Caveat:** the three builds render with the same allocation on the source's interactive talent
+> tool, which may be a limitation of that tool rather than a fact about the game. The stat and
+> rotation differences are stated explicitly and are not in doubt; treat "the talents are identical"
+> as likely but unconfirmed.
 
 > The guidance from top players is explicit: understand *why* each talent is selected rather than
 > copying the list. Gunde rewards adaptation more than any other hero.
@@ -83,6 +108,10 @@ otherwise flexible.
 
 - **Sets:** Seal of the Heskyr + Death's Grasp. Dark Prophecy is excellent for Heart Splitter given
   how hard that build leans on Haste.
+- **Legendaries:** **Carver's Sinister Apron** and **Band of the Bleeding Heart**.
+- **Weapon:** **Fateful Arms** is best-in-slot. The **cooldown acceleration from Fated Strike is very
+  synergistic with Gunde's cooldown-based kit** — it is the same 6-second window described under
+  [Single-target damage](#single-target-damage), so the weapon and the rotation are the same plan.
 - **Relics:** one of each type, then reforge duplicates.
 
 ## Single-target damage
@@ -120,8 +149,9 @@ explicit: only Slaughter when the target is about to die from it or you are swap
 - **Reign In Blood** makes direct ability damage apply an **additional 50% of its damage as Rend**.
   This is your Rend-building window — use it early and feed the pool that Heart Splitter then milks
   for the rest of the fight. Sequence matters: build first, exsanguinate after.
-- **Fasted Strike** (weapon ability) grants **6 seconds of cooldown acceleration**. Cram as many
-  priority abilities into that window as you physically can; it is the highest-density damage you get.
+- **Fated Strike** — the weapon ability from **Fateful Arms** — grants **6 seconds of cooldown
+  acceleration**. Cram as many priority abilities into that window as you physically can; it is the
+  highest-density damage you get, and it is why that weapon is best-in-slot.
 
 ### Itemising for it
 

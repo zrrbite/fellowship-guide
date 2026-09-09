@@ -89,6 +89,12 @@ assignment is **two players rotating Icy Death while a third banks for Frigid Mi
 both. The Stormwatch verdict was unaffected — Charged Bolt has no meaningful recast, so no rotation
 can cover it — but its reasoning was rewritten to say so.
 
+**Season 3 coverage re-verified, 2026-09-09.** The roster is **12 heroes** and **Gunde is the only
+hero added in Season 3** — all twelve have pages. The three Season 3 dungeons (Scryer's Peak, Ruins of
+Regath, Xul the Blood Monolith) all have pages. Nothing from the season is missing. The audit did
+find that Gunde's page lacked **any** legendary or weapon recommendation, and never stated what
+actually changes between his three builds; both are now fixed.
+
 **Newly documented:** Icy Death (Wyrmheart), Arcane Volley and Actuate Ambush (Cithrel's Fall),
 Anchor Strike and Temptation and Thwart the Mutiny (Wraithtide Vault), Hemorrhaging Strike and the
 Barbed Roots 40% damage link (Heart of Tuzari), Frigid Presence and Darkness Falls (Ransack of
@@ -106,7 +112,12 @@ full Han-Eth and Vel'korath kits (Xul).
 - **Gem node power thresholds** (80/150/250/350/450 for rank 1) are approximate. The 600 and 1500
   figures for rank 2 entry and the overcap node are confirmed.
 - **Gunde's blessings** are listed as "all 14 options viable" by the source rather than ranked. No
-  narrower recommendation was available.
+  narrower recommendation was available. Re-checked 2026-09-09: still unranked.
+- **Gunde's three builds show an identical talent allocation** on Method's interactive talent tool.
+  This may be a limitation of the tool rather than the game. The builds differ unambiguously in stat
+  priority and rotation, which is how [his page](heroes/dps/gunde.md) presents them.
+- **Gunde's talent point budget does not add up.** The listed allocation is 18 talents totalling 30
+  points, against a "14 points" figure carried on the page since the first draft. Flagged inline.
 - **Relic specifics** are thin across all sources. The advice here is deliberately generic.
 - **Dungeon difficulty rankings conflict.** Method rates Everdawn Grove B and Urrak Markets C;
   Overgear rates Everdawn Grove, Urrak Markets **and** Ransack of Drakheim all C. Both rankings are
